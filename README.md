@@ -10,7 +10,7 @@ A fully responsive, fast, and stylish landing page built for Castle Fitness. Des
 - High-converting hero section
 - Brief service overview
 - Contact section with social links and CTA
-    - **TODO**: Socials need to be linked
+    - **TODO**: Socials need to be linked and Email
 - Font Awesome integration
 - Lazy-loaded hero background image
 - SEO and accessibility optimised
@@ -26,13 +26,6 @@ A fully responsive, fast, and stylish landing page built for Castle Fitness. Des
 2. Click **"Add new site" → "Deploy manually"**
 3. Drag-and-drop the **unzipped project folder** into the upload area
 4. Done! Netlify will host your site and give you a public link
-
-### 🔹 Option 2: GitHub Pages (For Developers)
-
-1. Push the project to a GitHub repository
-2. Go to **Settings → Pages**
-3. Under **"Source"**, select `main` branch and root
-4. Your site will be live at: `https://yourusername.github.io/repo-name`
 
 ---
 

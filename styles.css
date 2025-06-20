@@ -1,0 +1,20 @@
+:root {
+    --primary: #ff3b3f;
+    --dark: #353942;
+    --light: #ffffff;
+    --gray: #888;
+    --font: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    background: var(--dark);
+    color: var(--light);
+    line-height: 1.6;
+}

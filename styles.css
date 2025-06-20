@@ -110,7 +110,7 @@ body {
 
 /* Lazy-loaded background placeholder */
 .hero.lazy-bg {
-    background-color: var(--bg-colour);
+    background-color: var(--dark);
 }
 
 .hero::before {
@@ -285,4 +285,14 @@ body {
     color: var(--primary);
     transform: scale(1.05);
     transition: tranform .3s ease-in;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1a1a1d;
+    color: var(--gray);
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    border-top: 1px solid var(--dark);
 }

@@ -296,3 +296,20 @@ body {
     font-size: 1rem;
     border-top: 1px solid var(--dark);
 }
+
+.footer-nav {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-nav a {
+    color: var(--dark);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-nav a:hover {
+    color: var(--primary);
+}

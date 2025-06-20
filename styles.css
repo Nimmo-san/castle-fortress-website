@@ -192,3 +192,43 @@ body {
         text-align: center;
     }
 }
+
+/* Services */
+.services {
+    padding: 4rem 2rem;
+    background-color: #1a1a1d;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary);
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: #2a2a2e;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: left;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+}

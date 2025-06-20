@@ -305,9 +305,9 @@ body {
 }
 
 .footer-nav a {
-    color: var(--dark);
+    color: var(--gray);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .footer-nav a:hover {

@@ -242,23 +242,57 @@ body {
     background-color: #121216;
 }
 
+.standout-contact {
+    background: linear-gradient(ro right, var(--primary), #b3212b);
+    color: var(--light);
+    text-align: center;
+    padding: 5rem 2rem;
+    position: relative;
+}
+
 .contact h2 {
-    font-size: 2rem;
+    font-size: 2.5remrem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
     color: var(--primary);
+    letter-spacing: 1px;
 }
 
 .contact .cta-content {
-    margin: 1rem auto 1.5rem;
-    font-size: 1.1rem;
+    margin: 1rem auto 2rem;
+    font-size: 1.2rem;
     color: var(--light);
     line-height: 1.6;
+    font-weight: 400;
+    color: var(--light);
 }
 
 .contact a {
     color: var(--light);
     text-decoration: underline;
 }
+
+.big-cta {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+    display: inline-block;
+    background-color: #000;
+    color: var(--light);
+    transition: background 0.3s ease;
+}
+
+.big-cta:hover {
+    background-color: var(--light);
+}
+
+.email-note {
+    font-size: .95rem;
+    color: var(--light);
+    margin-top: 1rem;
+}
+
 
 /* Socials */
 .socials {

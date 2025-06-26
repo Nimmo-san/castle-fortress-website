@@ -206,6 +206,7 @@ body {
 
 .services h2 {
     font-size: 2rem;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     color: var(--primary);
 }
@@ -243,6 +244,15 @@ body {
     text-align: center;
 }
 
+.contact-wrapper {
+  background-color: #2b2b30;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .contact h2 {
     font-size: 2.0rem;
     margin-bottom: 1rem;
@@ -265,15 +275,80 @@ body {
     text-decoration: underline;
 }
 
-.big-cta {
-    font-size: 1.1rem;
-    padding: 1rem 2rem;
-    border-radius: 50px;
-    margin-bottom: 2rem;
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.contact-btn {
+    margin: 1rem auto 2rem;
+    padding: 0.75rem 1.5rem;
     display: inline-block;
-    background-color: #000;
-    color: var(--light);
-    transition: background 0.3s ease;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid var(--primary);
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+
+.email-alt {
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.email-alt p {
+    margin: 2.0rem auto;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.alt-book-btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-bottom: 1.5rem;
+}
+
+.alt-book-btn:hover {
+    transform: scale(1.05);
 }
 
 /* Socials */
@@ -284,7 +359,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     padding: 1rem;
 }
 

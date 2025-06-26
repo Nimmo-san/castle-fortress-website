@@ -90,11 +90,38 @@
                 Ready to transform your body into a fortress? <strong>Let's Talk!</strong> <br>
                 Your transformation starts with one conversation.
             </p>
-            <!-- TODO: Change email to yours, change info@castlefitness.com to your email -->
-            <!-- TODO: Add a booking link -->
 
-            <a href="mailto:info@castlefitness.com" class="btn primary big-cta">Book Your Session Today!</a>
+            <div class="contact-wrapper">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="contact-form" autocomplete="on">
+                    <input type="hidden" name="form-name" value="contact" />
 
+                    <div class="form-group">
+                        <label for="name">Name*</label>
+                        <input type="text" placeholder="Full Name" name="name" id="name" autocomplete="name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" placeholder="Email" name="email" id="email" autocomplete="email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message*</label>
+                        <textarea placeholder="Your Message..." name="message" id="message" rows="5" autocomplete="off"
+                            required></textarea>
+                    </div>
+                    <div data-netlify-recaptcha="true"></div>
+
+                    <button type="submit" class="btn primary contact-btn">Send Message</button>
+                </form>
+                <!-- TODO: Add a booking link -->
+
+                <div class="email-alt">
+                    <p>Or prefer by Email?</p>
+                    <a href="mailto:acastlecoaching@castlefitness.uk" class="btn primary alt-book-btn">Book your Session
+                        Today!</a>
+                </div>
+            </div>
             <div id="socials" class="socials">
                 <!-- TODO: Connect with socials here, change # inside the href="#" -> href="https://..yourSocials" -->
                 <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>

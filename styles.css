@@ -369,12 +369,12 @@ body {
 }
 
 .socials a i {
-    font-size: 1.75rem;
+    font-size: 3rem;
 }
 
 .socials a:hover {
     color: var(--primary);
-    transform: scale(1.05);
+    transform: scale(1.06);
     transition: tranform .3s ease-in;
 }
 

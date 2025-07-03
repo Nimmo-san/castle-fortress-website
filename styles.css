@@ -122,8 +122,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom right, rgba(0, 0, 0, .6), rgba(255, 61, 64, .1));
-    backdrop-filter: blur(1px);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .5), rgba(255, 61, 64, .05));
+    /* backdrop-filter: blur(1px); */
     z-index: -1;
 }
 
@@ -168,6 +168,16 @@ body {
 
 /* Responsive menu */
 @media (max-width: 650px) {
+    .hero {
+        height: 80vh;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+
     .hamburger {
         display: block;
     }

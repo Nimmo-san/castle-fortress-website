@@ -100,7 +100,7 @@ body {
 
 /* Hero content */
 .hero {
-    background: url('images/bg-castle-fitness-owner.png') center/cover no-repeat;
+    background: url('images/bg-castle-fitness-owner.webp') center/cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;

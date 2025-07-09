@@ -366,12 +366,17 @@ body {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    transition: background 0.3s ease, transform 0.2s ease;
-    margin-bottom: 1.5rem;
+    transition: background 0.3s cubic-bezier(0, .5, 0, 1), transform 0.2s cubic-bezier(0, .5, 0, 1);
 }
 
 .alt-book-btn:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 650px) {
+    .alt-book-btn {
+        font-size: .9rem;
+    }
 }
 
 /* Socials */
@@ -388,7 +393,7 @@ body {
 
 .socials a {
     color: var(--light);
-    transition: color 0.3s ease;
+    transition: color 0.3s cubic-bezier(0, .5, 0, 1);
 }
 
 .socials a i {
@@ -398,7 +403,7 @@ body {
 .socials a:hover {
     color: var(--primary);
     transform: scale(1.06);
-    transition: tranform .3s ease-in;
+    transition: tranform .3s cubic-bezier(0, .5, 0, 1);
 }
 
 /* Footer */

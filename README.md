@@ -10,7 +10,6 @@ A fully responsive, fast, and stylish landing page built for Castle Fitness. Des
 - High-converting hero section
 - Brief service overview
 - Contact section with social links and CTA
-    - **TODO**: Socials need to be linked and Email
 - Font Awesome integration
 - Lazy-loaded hero background image
 - SEO and accessibility optimised

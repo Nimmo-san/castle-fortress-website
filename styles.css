@@ -230,7 +230,9 @@ body {
 /* Services */
 .services {
     padding: 4rem 2rem;
-    background-color: #1a1a1d;
+    /* background-color: #1a1a1d; */
+    background: #353942;
+    background: radial-gradient(circle, rgba(53, 57, 66, 1) 40%, rgba(255, 61, 64, .7) 150%);
     text-align: center;
 }
 

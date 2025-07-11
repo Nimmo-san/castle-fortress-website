@@ -269,6 +269,7 @@ body {
 .service-card h3 {
     color: var(--primary);
     margin-bottom: 0.75rem;
+    text-align: center;
 }
 
 /* Contact */

@@ -150,6 +150,8 @@ body {
     margin-bottom: 1rem;
     line-height: 1.2;
     color: var(--primary);
+
+    animation: fade-slide-down 1s 100ms cubic-bezier(0, 1, 1, 1) forwards;
 }
 
 .hero h1 span {
@@ -160,6 +162,8 @@ body {
     font-size: 1.2rem;
     color: var(--light);
     margin-bottom: 2rem;
+
+    animation: fade-slide-down .8s 100ms cubic-bezier(0, 1, 1, 1) forwards;
 }
 
 /* Hamburger button */

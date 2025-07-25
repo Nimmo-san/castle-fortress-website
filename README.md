@@ -1,4 +1,5 @@
 # 🏰 Castle Fitness Landing Page
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4206490f-85f6-48e8-8434-ea38e1535e31/deploy-status)](https://app.netlify.com/projects/castlefitness/deploys)
 
 A fully responsive, fast, and stylish landing page built for Castle Fitness. Designed to convert visitors into clients with a strong visual presence, clear CTA, and mobile-first layout.
 

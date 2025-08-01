@@ -374,7 +374,7 @@ body {
     padding: 0.75rem 2rem;
     border-radius: 50px;
     background-color: var(--primary);
-    color: #fff;
+    color: var(--light);
     font-weight: bold;
     text-decoration: none;
     transition: background 0.3s cubic-bezier(0, .5, 0, 1), transform 0.2s cubic-bezier(0, .5, 0, 1);

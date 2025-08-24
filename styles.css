@@ -140,7 +140,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom right, rgba(0, 0, 0, .5), rgba(255, 61, 64, .05)),
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .5), rgba(255, 61, 64, .10)),
         url('images/bg-castle-fitness-owner.webp') center/cover no-repeat;
     z-index: -1;
 }

@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Castle Fitness | Qualified Personal Trainer & Online Coach</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Castle Fitness - Qualified Personal Trainer & Online Coach, personalised training plan to transform your body into a fortress. Book a free session today to build muscle, lose weight, recover from injuries faster, refer to my services for more.">
-    <meta property="og:title" content="Castle Fitness">
+        content="Castle Fitness - Qualified Personal Trainer & Online Coach, personalised training plan to transform your body into a fortress. Book a free session today to build muscle, lose weight, recover from injuries faster, refer to my services for more." />
+    <meta property="og:title" content="Castle Fitness" />
     <meta property="og:description"
-        content="Achieve your fitness goals with a personalised training program with a qualified personal trainer & online coach. Based in Hastings, St Leonards-on-Sea, and Bexhill.">
-    <meta property="og:image" content="images/bg-castle-fitness-owner.webp">
-    <meta property="og:type" content="website">
+        content="Achieve your fitness goals with a personalised training program with a qualified personal trainer & online coach. Based in Hastings, St Leonards-on-Sea, and Bexhill." />
+    <meta property="og:image" content="images/bg-castle-fitness-owner.webp" />
+    <meta property="og:type" content="website" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
@@ -23,31 +23,41 @@
     <link rel="manifest" href="images/site.webmanifest" />
 
     <!-- Fonts and Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <!-- Header -->
     <header class="navbar">
         <div class="logo">
-            <a href="https://www.castlefitness.uk"><img src="images/logo.png" alt="Castle Fitness Logo"></a>
+            <a href="https://www.castlefitness.uk"><img src="images/logo.png" alt="Castle Fitness Logo" /></a>
         </div>
         <nav>
             <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
             <ul class="nav-links">
                 <li><a href="#hero" aria-label="Home section">Home</a></li>
-                <li><a href="#services" aria-label="Services section">Services</a></li>
+                <li>
+                    <a href="#services" aria-label="Services section">Services</a>
+                </li>
+                <li>
+                    <a href="#testimonials" aria-label="Testimonials section">Testimonials</a>
+                </li>
                 <li><a href="#contact" aria-label="Contact section">Contact</a></li>
-                <li><a href="tel:07853676655" class="btn book"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                            height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 6px;">
+                <li>
+                    <a href="tel:07853676655" class="btn book"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" viewBox="0 0 16 16"
+                            style="vertical-align: middle; margin-right: 6px">
                             <path
                                 d="M3.654 1.328a.678.678 0 0 1 1.015-.063l2.29 2.29c.329.329.445.803.287 1.23l-.805 2.154a.678.678 0 0 0 .167.69l2.457 2.457a.678.678 0 0 0 .69.167l2.154-.805c.427-.158.901-.042 1.23.287l2.29 2.29a.678.678 0 0 1-.063 1.015l-1.605 1.605c-.58.58-1.41.766-2.163.466a15.434 15.434 0 0 1-6.01-3.905A15.434 15.434 0 0 1 2.583 3.49c-.3-.753-.114-1.583.466-2.163L4.654 1.328z" />
                         </svg>
-                      Book Now
+                        Book Now
                     </a>
                 </li>
             </ul>
@@ -57,12 +67,16 @@
     <!-- Hero section -->
     <section id="hero" class="hero">
         <div class="hero-content">
-            <h1>MAKE <br>
-                <span> YOUR BODY A </span> <br>
+            <h1>
+                MAKE <br />
+                <span> YOUR BODY A </span> <br />
                 FORTRESS.
             </h1>
 
-            <p>Achieve your fitness with a bespoke training plan tailored to your needs.</p>
+            <p>
+                Achieve your fitness with a bespoke training plan tailored to your
+                needs.
+            </p>
             <!-- <p>Achieve your fitness goals with personalised training program.</p> -->
             <a href="#contact" class="btn primary">Book Now</a>
         </div>
@@ -75,20 +89,133 @@
             <div class="service-grid">
                 <div class="service-card">
                     <h3>1-on-1 Coaching</h3>
-                    <p>Personalised training tailored to your goals and lifestyle — online or in-person.</p>
+                    <p>
+                        Personalised training tailored to your goals and lifestyle —
+                        online or in-person.
+                    </p>
                 </div>
                 <div class="service-card">
                     <h3>Programs</h3>
-                    <p>Structured fitness programms with weekly check-ins, progress tracking, and support.</p>
+                    <p>
+                        Structured fitness programms with weekly check-ins, progress
+                        tracking, and support.
+                    </p>
                 </div>
                 <div class="service-card">
                     <h3>Nutrition Guidance</h3>
-                    <p>Balanced meal planning and ongoing accountability to fuel your transformation.</p>
+                    <p>
+                        Balanced meal planning and ongoing accountability to fuel your
+                        transformation.
+                    </p>
                 </div>
                 <div class="service-card">
                     <h3>Sports Massage Therapy</h3>
-                    <p>Relieve muscle tension, recover faster, and improve performance with targeted sports massage
-                        designed for active bodies.</p>
+                    <p>
+                        Relieve muscle tension, recover faster, and improve performance
+                        with targeted sports massage designed for active bodies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="title">What my clients say?</h2>
+                    <p class="testimonials-cta-content">Don't take my word for it, see my clients.</p>
+                </div>
+                <div class="testimonials-content">
+                    <div class="swiper testimonials-slider js-testiomonials-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide testimonials-item">
+                                <div class="info">
+                                    <div class="text-box">
+                                        <h3 class="name">Sol Costa</h3>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>
+                                    "I've been doing work out with Aidan, he's fantastic
+                                    personal trainer, very knowledgeable, I highly recommend
+                                    him. Thank you Aidan ✨😊💪"
+                                </p>
+                            </div>
+                            <div class="swiper-slide testimonials-item">
+                                <div class="info">
+                                    <div class="text-box">
+                                        <h3 class="name">James Martin</h3>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>
+                                    "Aidan is absolutely fantastic, I have had 5 sessions with
+                                    him so far and it has completely changed how I workout. In
+                                    the last month and a bit there has been noticeable changes
+                                    to my physique, and it's all down to Aidan. Thank you again
+                                    and I cannot recommend highly enough to anyone at any
+                                    experience level."
+                                </p>
+                            </div>
+                            <div class="swiper-slide testimonials-item">
+                                <div class="info">
+                                    <div class="text-box">
+                                        <h3 class="name">Sophie Hodson</h3>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>
+                                    "I started out with very little knowledge of exercising.
+                                    Aidan is great at explaining how all the exercises work and
+                                    which muscles you are working. Aidan is very motivating and
+                                    helps you to build up your fitness gradually. I would highly
+                                    recommend Aidan to help you on your fitness journey."
+                                </p>
+                            </div>
+                            <div class="swiper-slide testimonials-item">
+                                <div class="info">
+                                    <div class="text-box">
+                                        <h3 class="name">Shea Potter</h3>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>
+                                    "I searched tirelessly to find the perfect PT for my gym
+                                    sessions and the search is now over! The most flexible,
+                                    versatile and impactful training I have ever done. Whether
+                                    it's muscle gain, weight loss or just general health and
+                                    fitness Aidan is the guy you need. Every session delivered
+                                    with a smile and enthusiasm because of his passion for it,
+                                    cannot fault him, highly recommend!"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination js-testiomonials-pagination"></div>
                 </div>
             </div>
         </section>
@@ -97,7 +224,8 @@
         <section id="contact" class="contact">
             <h2>Get in Touch</h2>
             <p class="cta-content">
-                Ready to transform your body into a fortress? <strong>Let's Talk!</strong> <br>
+                Ready to transform your body into a fortress?
+                <strong>Let's Talk!</strong> <br />
                 Your transformation starts with one conversation.
             </p>
 
@@ -131,15 +259,16 @@
                     </div>
                     <div data-netlify-recaptcha="true"></div>
 
-                    <button type="submit" class="btn primary contact-btn">Send Message</button>
+                    <button type="submit" class="btn primary contact-btn">
+                        Send Message
+                    </button>
                 </form>
                 <!-- TODO: Add a booking link -->
 
                 <div class="email-alt">
                     <p>Or prefer Email?</p>
                     <a href="mailto:acastlecoaching@castlefitness.uk" class="btn secondary alt-book-btn">Book your
-                        Session
-                        Today!</a>
+                        Session Today!</a>
                 </div>
             </div>
             <div id="socials" class="socials">
@@ -186,6 +315,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 

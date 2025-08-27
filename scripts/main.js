@@ -35,3 +35,19 @@ navLinksA.forEach(link =>
         removeClass(hamburger, 'active');
     })
 );
+
+
+// testimonial pagination
+const swiper = new Swiper(".js-testiomonials-slider", {
+  grabCursor: true,
+  spaceBetween: 30,
+  pagination: {
+    el: ".js-testiomonials-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    500: {
+      slidesPerView: 1.5,
+    },
+  },
+});

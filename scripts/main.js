@@ -57,16 +57,28 @@ fetch('/testimonials.json')
 
     // testimonial pagination
     const swiper = new Swiper(".js-testiomonials-slider", {
+      loop: true,
       grabCursor: true,
+      centeredSlides: true,
       spaceBetween: 30,
+      slidesPerView: 1.05,
       pagination: {
         el: ".js-testiomonials-pagination",
         clickable: true,
       },
       breakpoints: {
-        500: {
-          slidesPerView: 1.5,
+        640: {
+          slidesPerView: 1.05,
+          spaceBetween: 28
         },
+        992: {
+          slidesPerView: 1.6,
+          spaceBetween: 32 
+        },
+        1280: {
+          slidesPerView: 2.2,
+          spaceBetween: 36
+        }
       },
     });
   })

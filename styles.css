@@ -6,7 +6,9 @@
     --font: 'Poppins', sans-serif;
 }
 
-html { color-scheme: dark;}
+html {
+    color-scheme: dark;
+}
 
 * {
     margin: 0;
@@ -313,6 +315,7 @@ body {
     letter-spacing: 0.2px;
     font-size: clamp(22px, 2.6vw, 36px);
     color: var(--primary);
+    text-transform: uppercase;
 }
 
 .container {
@@ -533,7 +536,7 @@ body {
 .email-alt {
     text-align: center;
     margin-top: 2rem;
-    color: #fff;
+    color: var(--light);
 }
 
 .email-alt p {

@@ -285,6 +285,11 @@ body {
     text-align: center;
 }
 
+.service-card p a {
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
 /* Testimonials */
 .testimonials {
     /* background: var(--dark); */
